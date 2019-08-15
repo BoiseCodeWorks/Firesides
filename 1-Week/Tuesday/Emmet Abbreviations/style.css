@@ -1,0 +1,17 @@
+.h100 {
+    height: 100vh;
+}
+#bg1 {
+    background-image: url('https://images.unsplash.com/photo-1498496294664-d9372eb521f3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f81344f21400a387f61effd4b5a4dcd5&w=1000&q=80');
+}
+#bg2 {
+    background-image: url('http://lo-mieszko.pl/wp-content/uploads/2017/06/summer-landscape-in-mountains.jpg');
+}
+#bg3 {
+    background-image: url('http://freebigpictures.com/wp-content/uploads/2009/09/mountain-river.jpg');
+}
+.bgi {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
