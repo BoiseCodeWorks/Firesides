@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row justify-content-center mt-5">
+            <div class="col-auto">
+                <form onsubmit="app.controllers.memesController.createMeme(event)">
+                    <input type="text" name="topScript">
+                    <input type="text" name="bottomScript">
+                    <input type="text" name="img">
+                    <button class="btn btn-info" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="row justify-content-center" id="dropzone"></div>
+    </div>
+
+
+    <script src="app/main.js" type="module"></script>
+</body>
+
+</html>
